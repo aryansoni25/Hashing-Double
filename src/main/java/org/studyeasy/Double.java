@@ -75,10 +75,10 @@ public class Double {
         if(load>=0.75){
             rehashKey(word);
         }else {
-            int x = modASCII(word, hashTable.length);
+            int a = modASCII(word, hashTable.length);
             int b = secondHashFunction(word, hashTable.length);
             for (int i = 0; i < hashTable.length; i++) {
-                int newIndex = (x + i * b) % hashTable.length;
+                int newIndex = (a + i * b) % hashTable.length;
                 if (hashTable[newIndex] == null) {
                     hashTable[newIndex] = word;
                     System.out.println("The word " + word + " successfully inserted at the location: " + newIndex);
