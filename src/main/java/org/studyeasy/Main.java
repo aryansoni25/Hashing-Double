@@ -2,12 +2,12 @@ package org.studyeasy;
 
 public class Main {
     public static void main(String[] args) {
-        Double db=new Double(13);
-        db.insertInHashtable("Quick");
-        db.insertInHashtable("browny");
-        db.insertInHashtable("fox");
-        db.insertInHashtable("over");
-        db.insertInHashtable("lazy");
-        db.displayHashTable();
+        Double d=new Double(13);
+        d.insertInHashtable("Quick");
+        d.insertInHashtable("browny");
+        d.insertInHashtable("fox");
+        d.insertInHashtable("over");
+        d.insertInHashtable("lazy");
+        d.displayHashTable();
     }
 }
